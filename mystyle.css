@@ -1,0 +1,168 @@
+*{
+	color: #A4B3B6;
+}
+.navbar{
+	overflow: hidden;
+	background-image: url(images/purple4.jpg);
+	position: fixed;
+	width: 3000px;
+	margin-left: -10px;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color:  #0B0C10;
+	padding: 15px 20px;
+	font-size: 25px;
+	text-decoration: none;
+	margin-left: 80px;
+
+}
+
+.navbar a:hover {
+	background-color: #C5C6C7;
+	color: black;
+}
+
+#welcome-section{
+	background-image: url(images/purple3.jpg);
+	height: 800px;
+}
+
+h1{
+	text-align: center;	
+	font-size: 70px;
+	margin-bottom: -10px;
+}
+
+#projects{
+	height: 800px;
+	margin-bottom: -50px;
+}
+
+.column3{
+	float: left;
+	width: 45%;
+	padding: 15px;
+	text-align: center;
+}
+.row3: after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#welcome{
+	margin-top: 200px;
+	font-size: 100px;
+	margin-bottom: -30px;
+}
+
+#tributelink{
+	width: 275px;
+	height: 200px;
+	margin-bottom: -10px;
+	margin-top: -10px;
+	border-radius: 5%;
+	margin-left: 400px;
+	border-style: solid;
+	border-color: white;
+}
+.tributelinktitle{
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-left: 400px;
+}
+#surveylink{
+	width: 275px;
+	height: 200px;
+	margin-bottom: -10px;
+	margin-top: -10px;
+	border-radius: 5%;
+	margin-right: 300px;
+	border-style: solid;
+	border-color: white;
+}
+.surveylinktitle{
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-right: 300px;
+}
+#productlink{
+	width: 275px;
+	height: 200px;
+	margin-bottom: -10px;
+	margin-top: -10px;
+	border-radius: 5%;
+	margin-left: 400px;
+	border-style: solid;
+	border-color: white;
+}
+.productlinktitle{
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-left: 400px;
+}
+#documentationlink{
+	width: 275px;
+	height: 200px;
+	margin-bottom: -10px;
+	margin-top: -10px;
+	border-radius: 5%;
+	margin-right: 300px;
+	border-style: solid;
+	border-color: white;
+
+}
+.documentationlinktitle{
+	font-size: 20px;
+	margin-bottom: 0px;
+	margin-right: 300px;
+
+}
+
+#contact{
+	height: 200px;
+	background-color: #404040;
+	margin-top: -20px;
+}
+#contacttitle{
+	margin-top:10px;
+	margin-bottom: 40px;
+}
+.contactclick1{
+	margin-left: 500px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+.contactclick2{
+	margin-left: 50px;
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.contactclick3{
+	margin-left: 50px;
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+.contactclick4{
+	margin-left: 50px;
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .column3{
+  	width: 50%;
+  }
+}
+
